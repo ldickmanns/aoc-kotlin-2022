@@ -6,12 +6,12 @@ fun main() {
     // test if implementation meets criteria from the description, like:
 //    val testInput = readInput("Day01_test")
 //    check(Day01.part1(testInput) == 1)
+    val input = readInput("aoc2021/day01/input")
+    val inputAsInt = input.map { it.toInt() }
 
-    val input = readInput("day01").map { it.toInt() }
 
-
-    println(part1(input))
-    println(part2(input))
+    println(part1(inputAsInt))
+    println(part2(inputAsInt))
 }
 
 fun part1(input: List<Int>): Int {
