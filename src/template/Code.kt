@@ -4,16 +4,15 @@ import readInput
 
 fun main() {
     val input = readInput("dayXX/input") // TODO change me
-    val inputAsInt = input.map { it.toInt() }
 
-    println(part1(inputAsInt))
-    println(part2(inputAsInt))
+    println(part1(input))
+    println(part2(input))
 }
 
-fun part1(input: List<Int>): Int {
+fun part1(input: List<String>): Int {
     return input.size
 }
 
-fun part2(input: List<Int>): Int {
+fun part2(input: List<String>): Int {
     return input.size
 }
