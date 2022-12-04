@@ -4,6 +4,7 @@ import readInput
 
 fun main() {
     val input = readInput("dayXX/input") // TODO change me
+//    val input = readInput("dayXX/input_test") // TODO change me
 
     println(part1(input))
     println(part2(input))
