@@ -6,8 +6,6 @@ fun main() {
     val input = readInput("day06/input")
 //    val input = readInput("day06/input_test")
 
-    println("asdfa".toSet())
-
     println(part1(input))
     println(part2(input))
 }
